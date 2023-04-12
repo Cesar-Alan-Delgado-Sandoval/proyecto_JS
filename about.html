@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Proyecto con JavaScript</title>
+
+        <!--Estilos css-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+
+        <!--JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="js/jquery-ui-1.13.2/jquery-ui.min.css" />
+        <link rel="stylesheet" href="js/jquery-ui-1.13.2/jquery-ui.structure.min.css" />
+        <link rel="stylesheet" href="js/jquery-ui-1.13.2/jquery-ui.theme.min.css" />
+        <script type="text/javascript" src="js/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+
+        <!--Plugin de Validacion-->
+        <script type="text/javascript" src="js/jquery.form-validator.min.js"></script>
+
+        <!--Mis scripts-->
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="selector-theme">
+            <div id="to-green"></div>
+            <div id="to-red"></div>
+            <div id="to-blue"></div>
+        </div>
+        <section id="global">
+            <!--Cabecera-->
+            <header>
+                <div id="logo">
+                    <h1>Proyecto JS</h1>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="reloj.html">Reloj</a></li>
+                        <li><a href="about.html">Sobre mi</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+
+            <!--Contenido-->
+            <section id="content">
+                <div id="box">
+                        <!-- CARGANDO ACORDEON--> 
+                    <h2>Sobre mi</h2>
+                    <di id="acordeon">
+                        <h3>¿Quienes somos?</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting 
+                            industry. 
+                        </p>
+                        <h3>Servicios</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting 
+                            industry. 
+                        </p>
+                        <h3>Clientes</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting 
+                            industry. 
+                        </p>
+                        
+                    </di>
+                </div>
+                <aside id="sidebar">
+                    <div id="about">
+                        <h4><span>¿Quién soy?</span></h4>
+                        <img src="img/caracol.jpg">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting 
+                            industry. 
+                        </p>
+                    </div>
+
+                    <div id="login">
+                        <h4><span>Identificate</span></h4>
+                        <form>
+                            <label for="name">Nombre</label>
+
+                                <input type="text" name="name" id="form_name">
+                            
+                            <label for="name">Correo</label>
+
+                                <input type="email" name="email">
+                            
+                            <label for="name">Contraseña</label>
+                                <input type="password" name="password">
+
+                            <input type="submit" value="Entrar"/>
+                            
+                        </form>
+                    </div>
+
+                </aside>
+
+                <div class="clearfix"></div>
+
+            </section>
+        </section>
+        <footer>
+            Curso javascript Alan Sandoval 
+            <a href="#" class="subir">Ir arriba</a>
+        </footer>
+    </body>
+
+</html>
